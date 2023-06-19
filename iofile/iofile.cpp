@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -39,6 +40,8 @@ int main() {
 			//dan tampilkan disini
 				cout << baris << '\n';
 		}
+		//tutup file tersebut setelah selesai
+		infile.close();
 	}
 }
 	
